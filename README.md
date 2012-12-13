@@ -7,6 +7,8 @@ The board is a regular pc however it needs tuning for AMD Geode
 processor and a few kernel configuration for supporting audio,
 framebuffer, and VGA.
 
+[alix3d3]: http://pcengines.ch/alix3d3.htm
+
 Dependencies
 ------------
 This layer depends on openembedded-core
