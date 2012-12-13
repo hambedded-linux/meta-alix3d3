@@ -5,6 +5,10 @@ Kernel
     * CS3536 sound
     * Geode framebuffer
 
+- Disable CONFIG_NET_VENDOR_* configuration except VIA in "Ethernet
+  driver support". Although NET_VENDOR_* is not referenced anywhere,
+  all of the drivers are selected by default. We only want VIA driver support
+
 X.org
 =====
 - Package xf86-video-geode 
