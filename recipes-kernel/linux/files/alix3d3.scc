@@ -10,8 +10,5 @@ include features/serial/8250.scc
 # wlan support, only rt2x00 and rt73usb are compiled as modules.
 include features/hostapd/hostapd.scc
 
-# vesa
-include cfg/vesafb.scc
-
 kconf hardware user-config.cfg
 include user-patches.scc
