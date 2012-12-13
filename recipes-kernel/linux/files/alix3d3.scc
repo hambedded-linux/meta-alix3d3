@@ -1,0 +1,17 @@
+kconf hardware alix3d3.cfg
+
+# default policy for standard kernels
+include cfg/usb-mass-storage.scc
+include cfg/boot-live.scc
+include features/latencytop/latencytop.scc
+include features/profiling/profiling.scc
+include features/serial/8250.scc
+
+# wlan support, only rt2x00 and rt73usb are compiled as modules.
+include features/hostapd/hostapd.scc
+
+# vesa
+include cfg/vesafb.scc
+
+kconf hardware user-config.cfg
+include user-patches.scc

@@ -1,0 +1,11 @@
+Kernel
+======
+- Enable the following features:
+    * Geode specific optimizations
+    * CS3536 sound
+    * Geode framebuffer
+
+X.org
+=====
+- Package xf86-video-geode 
+- Configure xorg.conf to use geode driver.
