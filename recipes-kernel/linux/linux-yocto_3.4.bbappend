@@ -9,6 +9,8 @@ COMPATIBLE_MACHINE_alix3d3 = "alix3d3"
 SRC_URI += "file://alix3d3-standard.scc \
             file://alix3d3.scc \
             file://alix3d3.cfg \
+            file://user-config.cfg \
+            file://user-patches.scc \
            "
 
 # NOTE: All features are defined in alix3d3.scc file instead of adding
