@@ -12,6 +12,7 @@ SRC_URI += "file://alix3d3-standard.scc \
             file://processor.cfg \
             file://framebuffer.cfg \
             file://cs5530.cfg \
+            file://logo.cfg \
             file://user-config.cfg \
             file://user-patches.scc \
            "
