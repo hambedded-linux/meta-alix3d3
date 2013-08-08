@@ -11,8 +11,17 @@ SRC_URI += "file://alix3d3-standard.scc \
             file://alix3d3.cfg \
             file://processor.cfg \
             file://framebuffer.cfg \
-            file://cs5535.cfg \
+            file://sound.cfg \
             file://logo.cfg \
+            file://crypto.cfg \
+            file://devtmpfs.cfg \
+            file://eth.cfg \
+            file://gpio.cfg \
+            file://leds.cfg \
+            file://pcmcia.cfg \
+            file://southbridge.cfg \
+            file://usb-serial.cfg \
+            file://wifi.cfg \
             file://user-config.cfg \
             file://user-patches.scc \
            "
