@@ -20,6 +20,7 @@ SRC_URI += "file://alix3d3-standard.scc \
             file://leds.cfg \
             file://pcmcia.cfg \
             file://southbridge.cfg \
+            file://serial.cfg \
             file://usb-serial.cfg \
             file://wifi.cfg \
             file://user-config.cfg \
