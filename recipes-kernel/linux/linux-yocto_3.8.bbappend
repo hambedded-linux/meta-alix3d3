@@ -21,10 +21,10 @@ SRC_URI += "file://alix3d3-standard.scc \
             file://pcmcia.cfg \
             file://southbridge.cfg \
             file://serial.cfg \
-            file://usb-serial.cfg \
             file://wifi.cfg \
             file://user-config.cfg \
             file://user-patches.scc \
+            file://ipv6.cfg \
            "
 
 # NOTE: All features are defined in alix3d3.scc file instead of adding
